@@ -16,7 +16,7 @@ Observação: dependendo do cenário da empresa (considere a maturidade analíti
 
 # Por que o resultado do modelo foi esse?
 
-Antes de entender a relação do resultado do modelo $\hat{Y}$ com $X$, é importante ter uma fase de diagnóstico do modelo, mesmo que de forma simplificada, principalmente, para os modelos estatísticos que exigem pressuposições. Alguns exemplo são: as probabilidades estão aderentes? O Brier Score está próximo ou abaixo da média da variável target ($\bar{y}$)? Como está o valor da log-loss? Como ficou o gráfico de calibração? Como ficaram as distribuições dos resíduos ($r~i~ = y_{i} - \hat{y}_{i}$) e dos valores estimados ($\hat{y}_{i}$)? Como está o erro de regressão?
+Antes de entender a relação do resultado do modelo $\hat{Y}$ com $X$, é importante ter uma fase de diagnóstico do modelo, mesmo que de forma simplificada, principalmente, para os modelos estatísticos que exigem pressuposições. Alguns exemplo são: as probabilidades estão aderentes? O Brier Score está próximo ou abaixo da média da variável target ($\bar{y}$)? Como está o valor da log-loss? Como ficou o gráfico de calibração? Como ficaram as distribuições dos resíduos ($r_i = y_{i} - \hat{y}_{i}$) e dos valores estimados ($\hat{y}_{i}$)? Como está o erro de regressão?
 
 Em algum momento, haverá o interesse em entender qual é o impacto de algumas variáveis na resposta estimada pelo modelo. Por que o modelo calculou uma alta/baixa probabilidade de default (não ficar em dia em um contrato de crédito) para o cliente A? Quais são as variáveis que impactam no aumento/redução do preço de um imóvel? Quais variáveis são responsáveis pela alta/baixa probabilidade de uma pessoa ter um AVC? É possível alterar algumas variáveis para que a resposta ($\hat{y}$) seja diferente?
 
