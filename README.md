@@ -1,6 +1,6 @@
 # Interpretabilidade de modelos
 
-Este repositório tem como objetivo apresentar, estudar e dissertar sobre interpretabilidade de modelos. A ideia não é trazer todo embasamento teórico, mas sim deixar o mais claro possível alguns métodos dentro dessa área. Antes de iniciar sobre os temas específicos, alguns comentários serão feitos para que haja alinhamento de pensamentos.
+Este repositório tem como objetivo apresentar, estudar e dissertar sobre interpretabilidade de modelos (também conhecida como Interpretable Machine Learning (IML) ou eXplainable AI (XAI)). É um novo campo que visa tornar o modelo mais compreensível e socialmente aceito. Esta última parte, é muito importante, principalmente, na etapa de convencimento da escolha do modelo e sua aplicação. A ideia não é trazer todo embasamento teórico, mas sim deixar o mais claro possível alguns métodos dentro dessa área. Antes de iniciar sobre os temas específicos, alguns comentários serão feitos para que haja alinhamento de pensamentos.
 
 # Definição
 
@@ -23,3 +23,7 @@ Em algum momento, haverá o interesse em entender qual é o impacto de algumas v
 As respostas para essas perguntas podem ser obtidas pela área de interpretabilidade de modelos.
 
 # Definição
+
+O que é interpretabilidade de modelos? Interpretabilidade é o "grau" que um modelo pode ser entendido por um ser humano.
+
+![](/home/hugo/Documents/Git_GitHub/IML_XAI/Screenshot from 2025-01-26 18-24-17.png 'teste')
