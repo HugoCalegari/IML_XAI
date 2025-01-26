@@ -24,6 +24,22 @@ As respostas para essas perguntas podem ser obtidas pela área de interpretabili
 
 # Definição
 
-O que é interpretabilidade de modelos? Interpretabilidade é o "grau" que um modelo pode ser entendido por um ser humano. Pela figura abaixo nota-se que modelos mais complexos
+O que é interpretabilidade de modelos? Interpretabilidade é o "grau" que um modelo pode ser entendido por um ser humano. Pela figura abaixo, nota-se que modelos mais complexos (à direita) tedem a ser menos interpretáveis e com maior acurácia. Modelos menos complexos tendem a ser mais interpretáveis e com menor acurácia. Aqui, acurácia é qualquer métrica que se julga mais interessante para o problema a ser resolvido, ou seja, pode ser a própria acurácia, f1-score, curva ROC, etc.
 
 ![image](Representacao1.png 'Grau de interpretabilidade e acurácia do modelo.')
+
+Veja que existem dois grandes blocos de modelos (parte inferior da figura) e uma área de transição (meio da figura). Os modelos interpretáveis são aqueles que podem ser entendidos pelos seres humanos sem a necessidade de nenhum método ou ajuda. Os modelos explicáveis precisam de técnicas ou métodos adicionais para que o modelo seja entendido pelos seres humanos. A área fuzzy (nebulosa) é uma região de transição ou não bem definida de interpretabilidade. Por exemplo: uma árvore de decisão é interpretável desde que sua profundidade seja razoável (torna-se trabalhoso interpretar uma árvore com profundidade de 50!); regressão linear múltipla e logística a interpretação é via coeficientes; floresta aleatória pode cair em um cenário de interpretabilidade, desde que se tenha poucas árvores e com baixa profundidade, ou de baixa interpretabilidade no cenário de muitas (poucas) árvores e com diferentes profundidades (grande profundidade). Veja que o último cenário mostra uma configuração fuzzy: qual é o ponto em que um modelo deixa de ser interpretável para ser explicável?
+
+## Categorizações de IML
+
+Os métodos de interpretabilidade dos modelos podem ser divididos em:
+
+- métodos ou modelos agnósticos (model agnostic): funcionam independente do modelo. Por exemplo: Partial Dependence Plot (PDP), permutation feature, SHapley Additive exPlanations (SHAP), Local Interpretable Model-Agnostic Explanations (LIME) etc.
+
+- métodos ou modelos específicos (model specific): funcionam para modelos específicos ou para uma família de modelos. Por exemplo: SHAP (tree-based, linear models, neural network), etc.
+
+- explicabilidade global: consegue explicar o modelo inteiro e podem se enquadrar em modelos agnósticos ou específicos. Por exemplo: SHAP, PDP, etc.
+
+- explicabilidade local: consegue explicar predições individuais e podem se enquadrar em modelos agnósticos ou específicos. Por exemplo: SHAP, LIME, etc.
+
+Além disso, os métodos podem usar técnicas de permutação ou surrogate models ("modelos interinos" ou "modelos substitutos"). Por exemplo: pode-se considerar que o PDP usa a permutação de variáveis mantida uma constrante e o LIME é um exemplo de método que usa um surrogate model.
