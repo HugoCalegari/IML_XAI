@@ -26,4 +26,4 @@ As respostas para essas perguntas podem ser obtidas pela área de interpretabili
 
 O que é interpretabilidade de modelos? Interpretabilidade é o "grau" que um modelo pode ser entendido por um ser humano.
 
-![image](Representacao1.png.png 'Grau de interpretabilidade e acurácia do modelo.')
+![image](Representacao1.png 'Grau de interpretabilidade e acurácia do modelo.')
