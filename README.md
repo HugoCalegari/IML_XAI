@@ -43,3 +43,20 @@ Os métodos de interpretabilidade dos modelos podem ser divididos em:
 - explicabilidade local: consegue explicar predições individuais e podem se enquadrar em modelos agnósticos ou específicos. Por exemplo: SHAP, LIME, etc.
 
 Além disso, os métodos podem usar técnicas de permutação ou surrogate models ("modelos interinos" ou "modelos substitutos"). Por exemplo: pode-se considerar que o PDP usa a permutação de variáveis mantida uma constrante e o LIME é um exemplo de método que usa um surrogate model.
+
+# Referências
+
+Livro: 
+
+- https://christophm.github.io/interpretable-ml-book/ 
+
+PDP:
+
+- https://www.youtube.com/watch?v=d3U-B0oXLkc
+- https://www.youtube.com/watch?v=dEhbS37Kglc
+
+LIME:
+
+- https://www.youtube.com/watch?v=dQ_jvRkzN1Q
+- https://www.youtube.com/watch?v=d6j6bofhj2M
+- https://arxiv.org/pdf/1602.04938
