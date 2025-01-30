@@ -6,7 +6,7 @@ Este repositório tem como objetivo apresentar, estudar e dissertar sobre interp
 
 O que é um modelo de Machine Learning (ML), estatístico ou modelo de Inteligência Artificial (IA)? A procura de explicações de um evento de interesse, denotado por $Y$, presume-se a existência de relações entre $Y$ e outras características/variáveis, estas denotadas por $X$. A composição entre $Y$ e $X$ pode ser expressa como $Y = f(X) + \epsilon$, em que $\epsilon$ representa um erro aleatório não correlacionado com $X$ e o montante não explicado pela relação $f(X)$. Tal composição pode ser entendida como uma representação de modelo de ML, modelo estatístico ou modelo de IA.
 
-Na realidade, procura-se estimar a relação de $Y$ e $X$ como $\hat{Y} \approx \hat{f}(X)$, uma vez que não é possível conhecer todas as variáveis (e suas relações $f(.)$) que expliquem o evento de interesse $Y$. Assim, espera-se encontrar um estimador $\hat{Y}$ que seja o mais representativo possível de Y.
+Na realidade, procura-se estimar a relação de $Y$ e $X$ como $\hat{Y} \approx \hat{f}(X)$, uma vez que não é possível conhecer todas as variáveis (e suas relações f(.)) que expliquem o evento de interesse $Y$. Assim, espera-se encontrar um estimador $\hat{Y}$ que seja o mais representativo possível de Y.
 
 # Para que serve um modelo
 
