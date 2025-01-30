@@ -59,4 +59,16 @@ LIME:
 
 - https://www.youtube.com/watch?v=dQ_jvRkzN1Q
 - https://www.youtube.com/watch?v=d6j6bofhj2M
-- https://arxiv.org/pdf/1602.04938
+- Paper: https://arxiv.org/pdf/1602.04938
+
+SHAP:
+
+- https://www.youtube.com/watch?v=MQ6fFDwjuco&list=PLqDyyww9y-1SJgMw92x90qPYpHgahDLIK
+- https://www.youtube.com/watch?v=9haIOplEIGM
+- https://www.youtube.com/watch?v=D8CvcLdy9Nc&list=PLcrc6i6xwaQSw8553tgt1p8XOMFEdQCbl 
+- https://www.din.uem.br/sbpo/sbpo2002/pdf/arq0227.pdf
+- Paper:  https://arxiv.org/pdf/1705.07874
+
+Contrafactuais:
+
+- https://www.youtube.com/watch?v=UUZxRct8rIk
